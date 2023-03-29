@@ -19,7 +19,7 @@ public class MongoDBRemoveQuery extends MongoDBQueryAdapter {
 
     public MongoDBRemoveQuery(MongoDBSchema.MongoDBTable table, String objectId) {
         this.objectId = objectId;
-        this.table = table;
+
     }
 
     @Override
